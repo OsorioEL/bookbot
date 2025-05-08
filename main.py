@@ -24,8 +24,7 @@ def main():
         print(f"{d["char"]}: {d["num"]}")
     print("============= END ===============")
   else:
-    print("Please provide a file path as a command line argument.")
-    print("Usage: python3 main.py <file_path>")
+    print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
   
 if __name__ == "__main__":
