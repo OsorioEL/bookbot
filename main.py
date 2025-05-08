@@ -13,7 +13,7 @@ def main():
   print("============ BOOKBOT ============")
   print("Analyzing book found at books/frankenstein.txt...")
   print("----------- Word Count ----------")
-  print(f"found {get_num_words(book_text)} total words")
+  print(f"Found {get_num_words(book_text)} total words")
   print("----------- Character Count -----------")
   sorted_dict_list = sorted_dict(get_char_count(book_text))
   for d in sorted_dict_list:
