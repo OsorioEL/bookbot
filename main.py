@@ -14,7 +14,7 @@ def main():
     # print(f"{get_num_words(book_text)} words found in the document.")
     # print(f"dictionary of characters and their counts: {get_char_count(book_text)}")
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {file_path}...")
     print("----------- Word Count ----------")
     print(f"Found {get_num_words(book_text)} total words")
     print("----------- Character Count -----------")
